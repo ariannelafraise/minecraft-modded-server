@@ -1,5 +1,6 @@
 services:
   minecraft-server:
+    container_name: minecraft-server
     build: .
     restart: unless-stopped
     ports:
