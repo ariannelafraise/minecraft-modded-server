@@ -3,4 +3,4 @@ WORKDIR /app
 COPY server.jar /app/server.jar
 EXPOSE 25565
 WORKDIR /server
-ENTRYPOINT ["java", "-Xmx2G", "-jar", "/app/server.jar", "nogui"]
+ENTRYPOINT ["java", "-Xmx6G", "-jar", "/app/server.jar", "nogui"]
